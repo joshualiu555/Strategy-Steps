@@ -1,6 +1,14 @@
 # strategy-steps
 A recreation of the Wii Party Minigame, "Strategy Steps" Allows unlimited players (preferably 4) Each round, players select a number: 1, 3, 5 After each round, if a player is the only number to select that number, they move up that number of steps. First to 10 wins
 
+The program uses the discord API and discord buttoms library. The entire game is asynchronous as it relies on user inputs. 
+
+It cannot support multiple games being played.
+When an request to start the game is entered, an array of players is made in this format.
+
+- Player array
+  - Score, Number Chosen
+
 <img width="288" alt="Screen Shot 2023-01-02 at 4 05 32 PM" src="https://user-images.githubusercontent.com/53412192/210280920-39aaec86-9456-4edf-b857-54af5af875e3.png">
 
 ## How To Play
